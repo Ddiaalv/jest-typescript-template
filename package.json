@@ -1,23 +1,32 @@
 {
   "name": "jest-typescript-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Jest typescript template",
+  "author": "David Díaz Alvarez",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "ts:watcher": "npx tsc -w",
-    "lint": "tsc --noEmit && npx eslint src/**/*.{js,ts} --quiet --fix"
+    "lint": "npx tsc --noEmit && npx eslint src/**/*.{js,ts} --quiet --fix",
+    "format": "npx prettier --write src/**/*.ts"
   },
-  "keywords": [],
-  "author": "David Díaz Alvarez",
-  "license": "ISC",
+  "keywords": [
+    "typescript",
+    "javascript",
+    "eslint",
+    "prettier"
+  ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.14.2",
-    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.2.1",
+    "eslint": "^7.19.0",
+    "prettier": "^2.2.1",
     "typescript": "^4.1.3"
   }
 }

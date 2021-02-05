@@ -8,10 +8,12 @@ Plantilla muy básica para crear rápidamente un entorno de desarrollo orientado
 | ----------------------------------------------- | ----------------------------------------------- |
 | 🌐[Typescript](https://www.typescriptlang.org/) | Lenguaje de programación                        |
 | 👁️[ESlint](https://eslint.org/)                 | Linter para controlar errores en nuestro código |
+| 🦋[Prettier](https://prettier.io/)              | Formatea nuestro código                         |
 
 ## Scripts de npm
 
-| Comando    | Detalles                                        |
-| ---------- | ----------------------------------------------- |
-| ts:watcher | Ejecuta el watcher del compilador de Typescript |
-| `lint`     | Comprueba errores de sintaxis                   |
+| Comando      | Detalles                                        |
+| ------------ | ----------------------------------------------- |
+| `ts:watcher` | Ejecuta el watcher del compilador de Typescript |
+| `lint`       | Comprueba errores de sintaxis                   |
+| `format`     | Formatea nuestro código TS                      |

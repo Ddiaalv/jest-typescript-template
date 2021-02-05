@@ -4,10 +4,12 @@ Plantilla muy básica para crear rápidamente un entorno de desarrollo orientado
 
 ## Tecnologías
 
-| Nombre | Detalles |
-| ------ | -------- |
+| Nombre                                          | Detalles                 |
+| ----------------------------------------------- | ------------------------ |
+| 🌐[Typescript](https://www.typescriptlang.org/) | Lenguaje de programación |
 
 ## Scripts de npm
 
-| Comando | Detalles |
-| ------- | -------- |
+| Comando    | Detalles                                        |
+| ---------- | ----------------------------------------------- |
+| ts:watcher | Ejecuta el watcher del compilador de Typescript |
